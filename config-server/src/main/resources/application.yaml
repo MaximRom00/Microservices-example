@@ -5,9 +5,7 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/MaximRom00/Microservices-example
-          uri: https://github.com/MaximRom00/Config-repo
-#          search-paths: config-repo
-          search-paths: config
+          uri: https://github.com/MaximRom00/Microservices-example
+          search-paths: config-repo
 server:
   port: 8888
